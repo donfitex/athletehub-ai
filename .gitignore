@@ -1,0 +1,36 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.pyc
+.venv/
+venv/
+.env
+.env.*
+!.env.example
+
+# Node / Next.js
+node_modules/
+.next/
+out/
+.npm/
+
+# Kotlin / Android
+*.iml
+.gradle/
+/local.properties
+/.idea/
+/.vscode/
+/app/build/
+
+# Docker / runtime
+*.log
+*.sqlite3
+
+db-data/
+redis-data/
+
+# OS
+Thumbs.db
+.DS_Store
